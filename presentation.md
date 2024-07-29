@@ -96,6 +96,39 @@ A web-based auction platform where users can list products, delete products, pla
 - **API**: Integrated own API with product data.
 - **Deployment**: Front-end and back-end on render.
 
+#### API structure
+- **Main Server File (server.js or index.js)**
+  - Sets up an Express server.
+  - Connects to a MongoDB database using Mongoose.
+  - Configures middleware, including CORS and JSON parsing.
+  -  Defines routes for the API, delegating product-related routes to a separate router (productRouter).
+- **Product Controller (productControllers.js)**
+  - Contains functions to handle CRUD operations for products:
+    - getProducts: Fetches all products.
+    - getProduct: Fetches a single product by ID.
+    - createProduct: Creates a new product.
+    - deleteProduct: Deletes a product by ID.
+    - updateProduct: Updates a product by ID.
+    - updateProductPrice: Updates only the price of a product by ID.
+    - getLikes: Increases the like count of a product by ID.
+
+- **Product Model (productsModel.js)**
+  - Defines the structure of a product document in the MongoDB database.
+  - Uses Mongoose schema to specify fields and their types (e.g., name, image, initialPrice, newPrice, description, tag, likes).
+
+- **Product Router (products.js)**
+  - Sets up routes for the product-related endpoints.
+  - Associates each route with the corresponding controller function.
+
+## Video Demonstration
+- [Watch the demo video]
+(https://drive.google.com/file/d/1ATcTYjmjmijsonTCJt43HuVwlkXim_Ro/view?usp=sharing)
+
+## References
+- [GitHub Repository-backend](https://github.com/NavneetBrar27/backend.git )
+- [GitHub Repository-frontend](https://github.com/NavneetBrar27/frontend.git )
+- [Link to the site](https://frontend-3-9u06.onrender.com/products)
+
 ## Screen Capture
 - **Home page**
 - ![image](https://github.com/user-attachments/assets/dc2bc31d-b645-4453-8cf8-940c6328724d) 
@@ -118,13 +151,6 @@ A web-based auction platform where users can list products, delete products, pla
 
  
 
-## Video Demonstration
-- [Watch the demo video]
-(https://drive.google.com/file/d/1ATcTYjmjmijsonTCJt43HuVwlkXim_Ro/view?usp=sharing)
 
-## References
-- [GitHub Repository-backend](https://github.com/NavneetBrar27/backend.git )
-- [GitHub Repository-frontend](https://github.com/NavneetBrar27/frontend.git )
-- [Link to the site](https://frontend-3-9u06.onrender.com/products)
 
 
