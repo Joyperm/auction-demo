@@ -1,0 +1,110 @@
+# Project Title: Auction Website: Infinity ACJN CO. (Group 10)
+
+## Project Description
+A web-based auction platform where users can list products, delete products, place bids, and filter items based on keywords or categories.
+
+## Interim Presentation
+
+### Project Idea
+- **Objective**: Develop an online auction platform where users can list products, place bids, filter products by keywords or categories, and delete listings.
+- **Key Features**:
+  - Add new products with details such as name, image, initial price, and description.
+  - Place bids on products, ensuring the new bid is higher than the current price.
+  - Search and filter products based on keywords or categories.
+  - Delete products from the listings.
+
+### Plans
+
+#### Week 1
+- **Setup**
+  - Created a new React app with Vite.
+  - Initialized the Node.js server with Express and MongoDB.
+- **Features Implemented**
+  - Created basic components: `Header`, `Products`, `AboutUs`, `Navbar`, `NotFound`.
+  - Implemented the bidding system.
+
+#### Week 2
+- **API Integration**
+  - Set up endpoints for product CRUD operations.
+- **Front-End**
+  - Implemented routing with React Router.
+  - Developed the `ProductForm` and integrated it with the API.
+
+#### Week 3
+- **Additional Features**
+  - Added product filtering by tags.
+
+- **Creative Features**
+  - Added a love button for each product.
+  - Implemented a toggle mode button to switch between light and dark modes.
+
+#### Week 4
+- **Deployment**
+  - Deployed the front-end and back-end to Render.
+
+- **Final Touches**
+  - Added a summary section and a short video demonstration.
+  - Finalized styling and user interface enhancements.
+
+### Architecture
+#### System Architecture
+- **Frontend**:
+  - Built with React.
+  - Utilizes React Router for navigation.
+  - Manages state with `useState` and `useEffect` hooks.
+- **Backend**:
+  - Built with Node.js and Express.
+  - Uses MongoDB Atlas for the database.
+  - Provides RESTful API endpoints for product CRUD operations.
+- **Frontend Components**:
+  - `Header`, `Navbar`, `AboutUs`, `ProductForm`, `NotFound`, `Products`, and `DarkModeToggle`.
+
+- **Backend**:
+  - API endpoints: `/products`, `/products/:id`, `/products/like`.
+
+#### Architecture Diagram
+- Frontend (React) <--> Backend (Node.js, Express) <--> Database (MongoDB)
+
+
+### Component Map
+#### Component Hierarchy
+- **App**:
+  - Root component that sets up routes and provides global context.
+
+- **Header**:
+  - Contains the `Navbar` and `DarkModeToggle` components.
+
+- **Navbar**:
+  - Navigation links to different pages.
+
+- **DarkModeToggle**:
+  - Toggles between light and dark modes.
+
+- **Routes**:
+  - Home (`Products`)
+  - Add Product (`ProductForm`)
+  - About Us (`AboutUs`)
+  - Not Found (`NotFound`)
+
+#### Component Map diagram
+![image](https://github.com/user-attachments/assets/08c95bce-5c46-4ae0-ab0a-df07998797e2)
+
+
+## Summary
+- **Features Implemented**: Product listing, bidding, search, filtering, and love rating system.
+- **Technologies Used**: React, Node.js, Express, MongoDB Atlas.
+- **API**: Integrated own API with product data.
+- **Deployment**: Front-end and back-end on render.
+
+
+ 
+
+## Video Demonstration
+- [Watch the demo video]
+(https://drive.google.com/file/d/1ATcTYjmjmijsonTCJt43HuVwlkXim_Ro/view?usp=sharing)
+
+## References
+- [GitHub Repository-backend](https://github.com/NavneetBrar27/backend.git )
+- [GitHub Repository-frontend](https://github.com/NavneetBrar27/frontend.git )
+-[Link to the site]( Infinity ACJN CO. (frontend-3-9u06.onrender.com))
+
