@@ -52,6 +52,7 @@ A web-based auction platform where users can list products, delete products, pla
   - Built with React.
   - Utilizes React Router for navigation.
   - Manages state with `useState` and `useEffect` hooks.
+  - Use axios to fetch data from API
 - **Backend**:
   - Built with Node.js and Express.
   - Uses MongoDB Atlas for the database.
@@ -143,6 +144,25 @@ A web-based auction platform where users can list products, delete products, pla
  
 - **About us page**
 - ![image](https://github.com/user-attachments/assets/faeab088-ab15-4004-ac25-05ccadf5280d)
+
+- **Bidding**
+- ![bidding](https://github.com/user-attachments/assets/1acb7286-989e-4f92-822e-e57de414dc22)
+
+
+- **Adding Product**
+- ![addProduct](https://github.com/user-attachments/assets/945bc4bd-0ce0-4e61-be90-d27da25eaa34)
+
+
+- **Deleting Product**
+- ![delete](https://github.com/user-attachments/assets/db847668-e85c-4091-9f23-42a439b25a8e)
+
+
+- **Search Product**
+- ![searchProduct](https://github.com/user-attachments/assets/d7800eab-61e5-4123-8b12-af92d90da0ad)
+
+- **Love Product**
+- ![likeProduct](https://github.com/user-attachments/assets/5d9b7dc7-7e28-4ee1-9adf-9131a7427e4e)
+
 
  
 
