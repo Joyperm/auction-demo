@@ -1,7 +1,6 @@
-## Summary
+# Summary
 
-### Component Map
-#### Component Hierarchy
+### Component Hierarchy
 - **App**:
   - Root component that sets up routes and provides global context.
 
@@ -23,14 +22,7 @@
 #### Component Map diagram
 ![image](https://github.com/user-attachments/assets/08c95bce-5c46-4ae0-ab0a-df07998797e2)
 
-
-
-- **Features Implemented**: Product listing, bidding, search, filtering, and love rating system.
-- **Technologies Used**: React, Node.js, Express, MongoDB Atlas.
-- **API**: Integrated own API with product data.
-- **Deployment**: Front-end and back-end on render.
-
-### API structure
+## API structure
 - **Main Server File (server.js or index.js)**
   - Sets up an Express server.
   - Connects to a MongoDB database using Mongoose.
@@ -54,6 +46,12 @@
   - Sets up routes for the product-related endpoints.
   - Associates each route with the corresponding controller function.
 
+## Features and technologies used
+- **Features Implemented**: Product listing, bidding, search, filtering, and love rating system.
+- **Technologies Used**: React, Node.js, Express, MongoDB Atlas.
+- **API**: Integrated own API with product data.
+- **Deployment**: Front-end and back-end on render.
+
 ## Video Demonstration
 - [Watch the demo video]
 (https://drive.google.com/file/d/1ATcTYjmjmijsonTCJt43HuVwlkXim_Ro/view?usp=sharing)
@@ -63,7 +61,7 @@
 - [GitHub Repository-frontend](https://github.com/NavneetBrar27/frontend.git )
 - [Link to the site](https://frontend-3-9u06.onrender.com/products)
 
-## Screen Capture
+## Example demo
 - **Home page**
 - ![image](https://github.com/user-attachments/assets/dc2bc31d-b645-4453-8cf8-940c6328724d) 
 
