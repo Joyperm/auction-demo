@@ -1,14 +1,36 @@
+## Summary
+
+### Component Map
+#### Component Hierarchy
+- **App**:
+  - Root component that sets up routes and provides global context.
+
+- **Header**:
+  - Contains the `Navbar` and `DarkModeToggle` components.
+
+- **Navbar**:
+  - Navigation links to different pages.
+
+- **DarkModeToggle**:
+  - Toggles between light and dark modes.
+
+- **Routes**:
+  - Home (`Products`)
+  - Add Product (`ProductForm`)
+  - About Us (`AboutUs`)
+  - Not Found (`NotFound`)
+
 #### Component Map diagram
 ![image](https://github.com/user-attachments/assets/08c95bce-5c46-4ae0-ab0a-df07998797e2)
 
 
-## Summary
+
 - **Features Implemented**: Product listing, bidding, search, filtering, and love rating system.
 - **Technologies Used**: React, Node.js, Express, MongoDB Atlas.
 - **API**: Integrated own API with product data.
 - **Deployment**: Front-end and back-end on render.
 
-#### API structure
+### API structure
 - **Main Server File (server.js or index.js)**
   - Sets up an Express server.
   - Connects to a MongoDB database using Mongoose.
