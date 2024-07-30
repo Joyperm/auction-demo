@@ -3,8 +3,6 @@
 ## Project Description
 A web-based auction platform where users can list products, delete products, place bids, and filter items based on keywords or categories.
 
-## Interim Presentation
-
 ### Project Idea
 - **Objective**: Develop an online auction platform where users can list products, place bids, filter products by keywords or categories, and delete listings.
 - **Key Features**:
